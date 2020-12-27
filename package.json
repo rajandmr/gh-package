@@ -1,13 +1,13 @@
 {
   "name": "@rajandmr/gh-package",
-  "version": "1.0.0",
-  "description": "",
+  "version": "1.0.1",
+  "description": "Package for trying out GITHUB Package Registry",
   "main": "index.js",
   "publishConfig": {
     "registry": "https://npm.pkg.github.com/@rajandmr"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index.js"
   },
   "keywords": [],
   "author": "",
